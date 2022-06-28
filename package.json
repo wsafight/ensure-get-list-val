@@ -1,6 +1,6 @@
 {
     "name": "ensure-get-list-val",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Make sure you get a usable value from the list",
     "author": "jump-jump <984292420@qq.com>",
     "keywords": [

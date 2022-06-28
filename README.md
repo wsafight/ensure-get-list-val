@@ -3,6 +3,8 @@
 [![Build Status](https://www.travis-ci.org/wsafight/ensure-get-list-val.svg?branch=main)](https://www.travis-ci.org/wsafight/ensure-get-list-val)
 [![NPM Version](https://badgen.net/npm/v/ensure-get-list-val)](https://www.npmjs.com/package/ensure-get-list-val)
 
+Read this in other languages: [简体中文](https://github.com/wsafight/ensure-get-list-val/blob/main/README.zh-CN.md)
+
 Make sure you can get an available value from the list
 
 
