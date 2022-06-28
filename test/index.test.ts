@@ -1,4 +1,4 @@
-import { ensureGetValFromList } from "../src";
+import ensureGetValFromList from "../src";
 
 test('ensure empty list', () => {
   const currentVal = ensureGetValFromList<number>({

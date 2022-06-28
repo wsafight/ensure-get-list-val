@@ -8,7 +8,7 @@ interface EnsureGetValFromListParams<ItemType, ValueType> {
     pos?: 'frist' | 'last'
 }
 
-// ValueType extends ItemType = ItemType
+// ValueType = ItemType
 // 如果不提供 ValueType, 则 ValueType 默认为 ItemType
 const ensureGetValFromList = <ItemType, ValueType = ItemType>({
     items,
