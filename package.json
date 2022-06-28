@@ -1,0 +1,67 @@
+{
+    "name": "ensure-get-list-val",
+    "version": "0.0.1",
+    "description": "Make sure you get a usable value from the list",
+    "author": "jump-jump <984292420@qq.com>",
+    "keywords": [
+      "list",
+      "val",
+      "ensure"
+    ],
+    "scripts": {
+      "start": "tsdx watch",
+      "build": "tsdx build",
+      "test": "tsdx test",
+      "lint": "tsdx lint",
+      "prepare": "tsdx build",
+      "size": "size-limit",
+      "analyze": "size-limit --why"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/wsafight/ensure-get-list-val.git"
+    },
+    "main": "dist/index.js",
+    "typings": "dist/index.d.ts",
+    "files": [
+      "dist",
+      "src"
+    ],
+    "engines": {
+      "node": ">=10"
+    },
+    "peerDependencies": {},
+    "husky": {
+      "hooks": {
+        "pre-commit": "tsdx lint"
+      }
+    },
+    "prettier": {
+      "printWidth": 80,
+      "semi": true,
+      "singleQuote": true,
+      "trailingComma": "es5"
+    },
+  
+    "module": "dist/ensure-get-list-val.esm.js",
+    "size-limit": [
+      {
+        "path": "dist/ensure-get-list-val.cjs.production.min.js",
+        "limit": "10 KB"
+      },
+      {
+        "path": "dist/ensure-get-list-val.esm.js",
+        "limit": "10 KB"
+      }
+    ],
+    "devDependencies": {
+      "@size-limit/preset-small-lib": "^7.0.8",
+      "husky": "^8.0.1",
+      "size-limit": "^4.10.2",
+      "tsdx": "^0.14.1",
+      "tslib": "2.4.0",
+      "typescript": "^4.7.4"
+    },
+    "license": "MIT"
+  }
+  
